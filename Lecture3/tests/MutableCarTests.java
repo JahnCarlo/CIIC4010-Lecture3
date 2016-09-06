@@ -7,7 +7,7 @@ import org.junit.Test;
 public class MutableCarTests {
 
 	@Test
-	public void test() {
+	public void testConstructor() {
 		MutableCar theCar = new MutableCar(1.0, 2.0, Color.BLUE);
 		assertNotNull("Reference is null", theCar);
 		assertTrue("X Position is incorrect",theCar.getXPos() == 1.0 );

@@ -30,7 +30,7 @@ public class MyComponent extends JComponent {
 		
 		
 		Random r = new Random();
-		bottomRightCar.setPosition(r.nextInt(getWidth()), r.nextInt(getHeight()));
+		bottomRightCar.setPosition(r.nextInt(getWidth() -60), r.nextInt(getHeight() - 30));
 		bottomRightCar.setColor(Color.MAGENTA);
 		bottomRightCar.draw(g);
 		System.out.println(counter++);
